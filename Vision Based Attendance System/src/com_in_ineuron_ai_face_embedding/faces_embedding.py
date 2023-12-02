@@ -15,7 +15,7 @@ import pickle
 import cv2
 import os
 
-
+# 
 class GenerateFaceEmbedding:
 
     def __init__(self, args):
