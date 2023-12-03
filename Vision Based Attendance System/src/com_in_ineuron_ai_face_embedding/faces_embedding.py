@@ -15,7 +15,9 @@ import pickle
 import cv2
 import os
 
-# The actual paths for 'path_to_dataset' and 'output_embeddings.pkl' need to be provided when using the code. The class GenerateFaceEmbedding is designed to quantify facial embeddings from a dataset and save them for subsequent use, such as in facial recognition systems.
+# The actual paths for 'path_to_dataset' and 'output_embeddings.pkl' need to be provided when using the code. 
+# he class GenerateFaceEmbedding is designed to quantify facial embeddings from a dataset and save them for subsequent use, 
+# such as in facial recognition systems.
 class GenerateFaceEmbedding:
 
     def __init__(self, args):
